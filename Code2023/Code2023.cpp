@@ -14,6 +14,5 @@ int main()
     
     map* Mapa = file_input("00-example.txt");
 
-
     return 0;
 }
