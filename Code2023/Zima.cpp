@@ -93,4 +93,46 @@ result* stavi_zmije(map* Mapa, coord* pozicije) {
     return R;
 }
 
+void zaharije(map* Mapa, coord* pozicije) {
+
+    coord* next_best = new coord[Mapa->S];
+    int* value_best = new int[Mapa->S];
+    bool* alive = new bool[Mapa->S];
+    bool* moved = new bool[Mapa->S];
+
+    //fnext_best = filip();
+    int cur_l = 0;
+    int v_best, i_best;
+    for (int i = 0; i < Mapa->S; i++) {
+        alive[i] = 1;
+        moved[i] = 0;
+       // next_best[i] = filip(Mapa, pozicija[i]);
+        value_best[i] = Mapa->Grid[next_best[i].X][next_best[i].Y];
+        if (i == 0) {
+            v_best = value_best[i];
+            i_best = 0;
+        }
+        else if (value_best[i] > v_best) {
+            v_best = value_best[i];
+            i_best = i;
+        }
+    }
+
+    bool loop = true;
+
+    while (loop) {
+        bool loop = false;
+        while (cur_l < Mapa->S) {
+            if (Mapa->Snakes[cur_l] > 0) {
+                loop = true;
+                
+            }
+            cur_l++;
+        }
+    }
+    
+
+
+}
+
 

@@ -16,7 +16,7 @@ typedef struct Map {
 
 typedef struct Result {
     long long score;
-    vector<vector<string>> steps
+    vector<vector<string>> steps;
 }result;
 
 map* file_input(const char* file_name);
