@@ -70,3 +70,6 @@ void ispis_matrice(map* Mapa) {
         cout << endl;
     }
 }
+
+
+void
