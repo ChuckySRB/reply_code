@@ -4,18 +4,7 @@
 
 using namespace std;
 
-typedef struct Coordinate {
-    int X, Y;
-}coord;
 
-typedef struct Map {
-    int C, R;
-    int** Grid;
-    int W, S;
-    int** WormholeGrid;
-    coord* Wormholes;
-    int* Snakes;
-}map;
 
 
 
@@ -71,4 +60,13 @@ map* file_input(const char* file_name) {
 
     cout << "Ide gas" << endl;
     return novaMapa;
+}
+
+void ispis_matrice(map* Mapa) {
+    for (int i = 0; i < Mapa->R; i++) {
+        for (int j = 0; j < Mapa->C; j++) {
+            cout << Mapa->Grid[i][j] << " ";
+        }
+        cout << endl;
+    }
 }
