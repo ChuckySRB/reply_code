@@ -12,7 +12,8 @@ using namespace std;
 int main()
 {
     
-    cout << zdravo();
+    map* Mapa = file_input("00-example.txt");
+
 
     return 0;
 }

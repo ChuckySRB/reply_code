@@ -1,7 +1,69 @@
-﻿  Code2023.cpp
-  Jesen.cpp
-  Leto.cpp
-  Prolece.cpp
-  Zima.cpp
-  Generating Code...
-  Code2023.vcxproj -> D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\x64\Debug\Code2023.exe
+﻿  Zima.cpp
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(9,2): error C2371: 'coord': redefinition; different basic types
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(2): message : see declaration of 'coord'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(18,2): error C2371: 'map': redefinition; different basic types
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(35,28): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(38,26): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(38,41): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(38,56): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(39,13): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(39,40): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(39,44): error C3078: array size must be specified in new expressions without an initializer
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(41,33): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(42,30): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(44,13): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(44,39): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(44,43): error C3078: array size must be specified in new expressions without an initializer
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(45,13): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(45,48): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(45,52): error C3078: array size must be specified in new expressions without an initializer
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(46,13): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(46,46): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(46,60): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(46,64): error C3078: array size must be specified in new expressions without an initializer
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(48,13): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(51,32): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(52,17): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(52,45): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(52,49): error C3078: array size must be specified in new expressions without an initializer
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(53,17): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(53,53): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(53,57): error C3078: array size must be specified in new expressions without an initializer
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(54,37): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(57,25): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(58,25): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(59,25): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(59,45): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(60,25): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(63,25): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.cpp(64,25): error C2027: use of undefined type 'map'
+D:\Caslav\Poso\Hackathon\ReplyCode\reply_code\Code2023\Zima.hpp(3): message : see declaration of 'map'
