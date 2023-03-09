@@ -71,5 +71,26 @@ void ispis_matrice(map* Mapa) {
     }
 }
 
+/*
+typedef struct Map {
+    int C, R;
+    int** Grid;
+    int W, S;
+    int** WormholeGrid;
+    coord* Wormholes;
+    int* Snakes;
+}map;*/
 
-void
+result* stavi_zmije(map* Mapa, coord* pozicije) {
+    result* R = new result;
+    R->score = 0;
+    for (int i = 0; i < Mapa->S; i++) {
+        Mapa->WormholeGrid[pozicije[i].X][pozicije[i].Y] = -1;
+        Mapa->Snakes[i]--;
+        R->score += Mapa->Grid[pozicije[i].X][pozicije[i].Y];
+    }
+
+    return R;
+}
+
+

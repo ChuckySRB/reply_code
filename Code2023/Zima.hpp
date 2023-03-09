@@ -1,4 +1,6 @@
 #pragma once
+#include <vector>
+
 typedef struct Coordinate {
     int X, Y;
 }coord;
@@ -11,4 +13,12 @@ typedef struct Map {
     coord* Wormholes;
     int* Snakes;
 }map;
+
+typedef struct Result {
+    long long score;
+    vector<vector<string>> steps
+}result;
+
 map* file_input(const char* file_name);
+void ispis_matrice(map* Mapa);
+result* stavi_zmije(map* Mapa, coord* pozicije);
